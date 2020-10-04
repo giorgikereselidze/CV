@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* Global Classes */
+
+body {
+    background-color: ##e2e8ff;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 5rem;
+    margin: 50px auto 50 auto;
+    color: #232320;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #232320;
+    padding: 20px 0;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    color: #232320;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    color: #232320;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+    color: #232320;
+}
+
+span {
+    font-family: 'Sacramento', cursive;
+    font-size: 32px;
+    padding-left: 30px;
+    font-weight: bold;
+    color: #232320;
+}
+
+hr {
+    border: dotted lightgrey 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+
+/* Global Classes END */
+
+.top-container {
+    position: relative;
+    padding-top: 100px;
+    background-color: #d6e2e9;
+}
+
+.middle-container {}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.my-name {
+    font-size: 5rem;
+    margin: 50px auto 50px auto;
+}
+
+.profile {
+    margin: 70px 0;
+    line-height: 2;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 50px 0 50px 0;
+    display: inline-block;
+    text-align: left;
+    line-height: 2;
+}
+
+.skill-row>.chillies-description {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-row>.computer-description {
+    width: 25%;
+    float: right;
+    margin-right: 30px;
+}
+
+.experience {
+    width: 50%;
+    margin: 50px 0 50px 0;
+    display: inline-block;
+    text-align: left;
+    line-height: 2;
+}
+
+.experience>img {
+    float: left;
+}
+
+.bottom-container {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btn {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.btn:hover {
+    border-bottom: lightcoral solid 2px;
+    transition: all ease-in-out 0.2s;
+}
+
+.bottom-container {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #d6e2e9;
+}
+
+.bottom-container>div>a>i {
+    padding: 0 10px;
+    color: black;
+}
+
+.bottom-container>div>a>i:hover {
+    color: lightcoral;
+    transition: all ease-in-out 0.2s;
+}
